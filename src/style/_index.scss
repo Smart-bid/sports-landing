@@ -1,0 +1,107 @@
+@import './mixins';
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+  
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    max-width: 1500px;
+    height: 92vh;
+
+    margin: 0 auto;
+}
+
+.background {
+    height: 87vh;
+
+    background-image: url('../images/back-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-background {
+    height: 100vh;
+
+    background-image: url('../images/back-footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.register {
+    width: 237px;
+    height: 58px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #fff;
+    text-transform: uppercase;
+    
+    border-radius: 5px;
+    background: -webkit-linear-gradient( 90deg, rgb(229,93,24) 0%, rgb(255,186,1) 100%);
+
+    cursor: pointer;
+
+    &_big {
+        width: 285px;
+        height: 83px;
+
+        font-size: 24px;
+    }
+}
+
+.text {
+    text-transform: uppercase;
+    transform: matrix( 1.2142456549181,0,0,1.2142456549181,0,0);
+
+    line-height: 0.917;
+
+    &__extra-bold {
+        font-weight: 800;
+
+        line-height: 1.183;
+        text-align: center;
+    }
+
+    &_29px {
+        font-size: 29px;
+    }
+
+    &_43px {
+        font-size: 40px;
+    }
+
+    @include breakpoint(450) {
+        &_29px {
+            font-size: 20px;
+        }
+    
+        &_43px {
+            font-size: 30px;
+        }
+    }
+}
