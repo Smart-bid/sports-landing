@@ -25,7 +25,7 @@ function App() {
                 </p>
               <p className="text text__extra-bold text_29px p_indent">+40 free SPINS</p>
 
-              <input type="button" value="Register Now" className="register register_big" />
+              <a href="#" className="register register_big">Register Now</a>
             </main>
           </div>
 
