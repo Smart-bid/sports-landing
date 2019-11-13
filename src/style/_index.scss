@@ -25,7 +25,8 @@ button {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 
     max-width: 1500px;
     height: 92vh;
@@ -35,20 +36,27 @@ button {
 
 .background {
     height: 87vh;
+    position: relative;
+    z-index: 10;
 
     background-image: url('../images/back-main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 .footer-background {
     height: 100vh;
 
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+
     background-image: url('../images/back-footer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 .register {
@@ -60,7 +68,7 @@ button {
     align-items: center;
 
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 
     color: #fff;
     text-transform: uppercase;
@@ -88,7 +96,6 @@ button {
         font-weight: 800;
 
         line-height: 1.183;
-        text-align: center;
     }
 
     &_29px {
