@@ -46,15 +46,7 @@ function App() {
                   <img src="./images/skrill.png" alt="" />
               </div>
 
-              <div className="footer__bottom">
-                  <img src="./images/skrill.png" alt="" />
-                  <img src="./images/pay.png" alt="" />
-                  <img src="./images/visa.png" alt="" />
-                  <img src="./images/master-card.png" alt="" />
-                  <img src="./images/skrill.png" alt="" />
-                  <img src="./images/pay.png" alt="" />
-                  <img src="./images/visa.png" alt="" />
-              </div>
+             
             </footer>
           </div>
         </div>
