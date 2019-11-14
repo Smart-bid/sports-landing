@@ -29,7 +29,11 @@ function App() {
             </main>
           </div>
 
-          <div className="footer-wrapper">
+         
+        </div>
+      </div>
+
+      <div className="footer-wrapper">
             <footer className="footer">
               <div className="footer__top">
                   <img src="./images/visa.png" alt="" />
@@ -56,8 +60,6 @@ function App() {
               </div>
             </footer>
           </div>
-        </div>
-      </div>
     </div>
   );
 }
