@@ -1,50 +1,41 @@
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-    margin-bottom: 120px;
+    align-items: flex-start;
+    z-index: 3;
 
     font-family: "Changa", serif;
 
     color: rgb(255, 194, 72);
 
      p:nth-of-type(1) {
-         margin-bottom: 70px;
-     }
-
-     p:nth-of-type(2) {
-         margin-bottom: 24px;
+         margin-bottom: 55px;
      }
 
      a:nth-of-type(1) {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 60px;
      }
 
     &-wrapper {
+        max-width: 440px;
         display: flex;
         justify-content: center;
         align-self: center;
 
-        max-width: 654px;
+        position: relative;
 
         margin-left: 100px;
 
-        @include breakpoint(1000) {
-            margin-left: 0;
+        @include breakpoint(600) {
+            margin-left: 40px;
+        }
+
+        @include breakpoint(400) {
+            margin-left: 20px;
         }
     }
 
-    @include breakpoint(720) {
-        .wrapper {
-            width: 380px;
-        }
-
-        margin-bottom: 0;
-    }
-
-    @include breakpoint(720) {
+    @include breakpoint(400) {
         .wrapper {
             width: 300px;
         }

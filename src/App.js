@@ -21,7 +21,7 @@ function App() {
             <main className="main">
               <p className="text text_29px">limited time offer</p>
                 <p className="text text__extra-bold text_43px wrapper">
-                  FIRST DEPOSIT BONUS: 200% <br /> UP TO £50 + 200 BONUS 
+                  <span className="text-red">FIRST DEPOSIT BONUS: 200% UP TO £50 + 200 BONUS </span>
                 </p>
               <p className="text text__extra-bold text_29px p_indent">+40 free SPINS</p>
 

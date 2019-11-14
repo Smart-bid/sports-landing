@@ -13,6 +13,10 @@
     margin: 0 auto;
     padding: 60px 40px 0;
 
+    @include breakpoint(400) {
+        padding-left: 20px;
+    }
+
     &__logo {       
         margin: 0;
 
