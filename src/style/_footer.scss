@@ -1,31 +1,46 @@
 .footer {
+    max-width: 915px;
     display: flex;
     flex-direction: column;
 
     &-wrapper {
-        width: 915px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
         position: fixed;
         bottom: 0;
+
+        overflow-x: scroll;
 
         padding-bottom: 40px;
     }
 
     &__top {
+        height: 20px;
         display: flex;
         justify-content: space-between;
 
-        height: 20px;
+        img:nth-of-type(odd),
+        img:nth-of-type(even) {
+            margin-right: 10px;
+        }
 
         margin-bottom: 13px;
     }
 
     &__bottom {
-        width: 710px;
+        width: 78%;
+        height: 20px;
 
         display: flex;
         justify-content: space-evenly;
         align-self: center;
 
-        height: 20px;
+        img:nth-of-type(odd),
+        img:nth-of-type(even) {
+            margin-right: 10px;
+        }
     }
+
+   
 }

@@ -35,6 +35,7 @@ button {
 
 .background {
     height: 87vh;
+    overflow: hidden;
 
     background-image: url('../images/back-main.jpg');
     background-repeat: no-repeat;
@@ -44,6 +45,7 @@ button {
 
 .footer-background {
     height: 100vh;
+    overflow: hidden;
 
     background-image: url('../images/back-footer.jpg');
     background-repeat: no-repeat;
