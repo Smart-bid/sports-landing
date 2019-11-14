@@ -1,6 +1,7 @@
 .main {
+    position: relative;
+    z-index: 2;
     margin-bottom: 120px;
-    padding: 0 30px;
 
     font-family: "Changa", serif;
     text-align: left;
@@ -16,35 +17,34 @@
      }
 
     a:nth-of-type(1) {
-       margin-top: 100px;
-       margin-bottom: 100px;
+       margin-top: 65px;
     }
 
     &-wrapper {
-        display: flex;
-        align-self: center;
-
         max-width: 435px;
         height: 390px;
+        display: flex;
+        align-self: center;
+        position: relative;
 
         margin-left: 100px;
+        padding: 0 10px;
 
-        @include breakpoint(1000) {
+        @include breakpoint(580) {
             margin-left: 0;
         }
-    }
 
-    @include breakpoint(720) {
-        .wrapper {
-            width: 380px;
-        }
-
-        margin-bottom: 0;
-    }
-
-    @include breakpoint(720) {
-        .wrapper {
-            width: 300px;
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            width: 1100px;
+            height: 640px;
+            background-image: url('../images/back-text.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: -80px;
+            left: -370px;
         }
     }
 }
