@@ -23,7 +23,7 @@ function App() {
                 <p className="text text__extra-bold text_43px wrapper">
                   FIRST DEPOSIT BONUS: 200% <br /> UP TO £50 + 200 BONUS 
                 </p>
-              <p className="text text__extra-bold text_29px p_indent">+40 free SPINS</p>
+              <p className="text text__extra-bold text_29px p_indent"><span className="neon-green">+40 free SPINS</span></p>
 
               <a href="#" className="register register_big">Register Now</a>
             </main>
