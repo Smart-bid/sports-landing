@@ -37,7 +37,8 @@ button {
     &::before {
         content: "";
         position: absolute;
-        width: 100%;
+        max-width: 135vh;
+        width: 135vh;
         height: 60%;
         top: 220px;
         background-image: url('../images/back-left.png');

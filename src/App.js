@@ -7,7 +7,7 @@ function App() {
       <div className="background">
 
         <div className="container">
-
+          
           <header className="header">
             <div className="header__logo-wrapper">
               <p className="header__logo">logo</p>
