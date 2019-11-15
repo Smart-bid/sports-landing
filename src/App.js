@@ -3,7 +3,7 @@ import './main.scss';
 
 function App() {
   return (
-    <div className="footer-background">
+    <>
       <div className="background">
 
         <div className="container">
@@ -33,34 +33,36 @@ function App() {
         </div>
       </div>
 
-      <div className="footer-wrapper">
-            <footer className="footer">
-              <div className="footer__top">
-                  <img src="./images/visa.png" alt="" />
-                  <img src="./images/master-card.png" alt="" />
-                  <img src="./images/skrill.png" alt="" />
-                  <img src="./images/pay.png" alt="" />
-                  <img src="./images/visa.png" alt="" />
-                  <img src="./images/master-card.png" alt="" />
-                  <img src="./images/skrill.png" alt="" />
-                  <img src="./images/pay.png" alt="" />
-                  <img src="./images/visa.png" alt="" />
-                  <img src="./images/master-card.png" alt="" />
-                  <img src="./images/skrill.png" alt="" />
-              </div>
+      <div className="footer-background">
+        <div className="footer-wrapper">
+          <footer className="footer">
+            <div className="footer__top">
+                <img src="./images/visa.png" alt="" />
+                <img src="./images/master-card.png" alt="" />
+                <img src="./images/skrill.png" alt="" />
+                <img src="./images/pay.png" alt="" />
+                <img src="./images/visa.png" alt="" />
+                <img src="./images/master-card.png" alt="" />
+                <img src="./images/skrill.png" alt="" />
+                <img src="./images/pay.png" alt="" />
+                <img src="./images/visa.png" alt="" />
+                <img src="./images/master-card.png" alt="" />
+                <img src="./images/skrill.png" alt="" />
+            </div>
 
-              <div className="footer__bottom">
-                  <img src="./images/skrill.png" alt="" />
-                  <img src="./images/pay.png" alt="" />
-                  <img src="./images/visa.png" alt="" />
-                  <img src="./images/master-card.png" alt="" />
-                  <img src="./images/skrill.png" alt="" />
-                  <img src="./images/pay.png" alt="" />
-                  <img src="./images/visa.png" alt="" />
-              </div>
-            </footer>
-          </div>
-    </div>
+            <div className="footer__bottom">
+                <img src="./images/skrill.png" alt="" />
+                <img src="./images/pay.png" alt="" />
+                <img src="./images/visa.png" alt="" />
+                <img src="./images/master-card.png" alt="" />
+                <img src="./images/skrill.png" alt="" />
+                <img src="./images/pay.png" alt="" />
+                <img src="./images/visa.png" alt="" />
+            </div>
+          </footer>
+        </div>
+      </div>
+    </>
   );
 }
 
