@@ -33,36 +33,13 @@ button {
     overflow: hidden;
 
     margin: 0 auto;
-
-    &::before {
-        content: "";
-        position: absolute;
-        max-width: 135vh;
-        width: 135vh;
-        height: 60%;
-        top: 220px;
-        background-image: url('../images/back-left.png');
-        background-repeat: no-repeat;
-        left: -750px;
-    }
-
-    &::after {
-        content: "";
-        position: absolute;
-        width: 37%;
-        height: 60%;
-        top: 220px;
-        background-image: url('../images/back-right.png');
-        background-repeat: no-repeat;
-        right: 0;
-    }
 }
 
 .background {
     height: 87vh;
     overflow: hidden;
 
-    background-image: url('../images/back-main.jpg');
+    background-image: url('../images/back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -115,7 +92,7 @@ button {
     line-height: 0.917;
 
     &__extra-bold {
-        font-weight: 800;
+        font-weight: 600;
 
         line-height: 1.183;
         text-align: center;
