@@ -35,7 +35,7 @@ button {
     &::after {
         content: "";
         position: absolute;
-        width: 100%;
+        width: 70vh;
         height: 100%;
         top: -40px;
         background-image: url('/static/media/opacity.f49c68da.png');
@@ -45,6 +45,12 @@ button {
 
     @include breakpoint(800) {
         justify-content: center;
+    }
+
+    @include breakpoint(600) {
+        &::after {
+            left: -200px;
+        }
     }
 }
 
