@@ -47,10 +47,4 @@
 
         margin-bottom: 0;
     }
-
-    @include breakpoint(720) {
-        .wrapper {
-            width: 300px;
-        }
-    }
 }
