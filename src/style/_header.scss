@@ -7,15 +7,15 @@
     position: fixed;
     right: 0;
     left: 0;
+    top: 0;
 
     max-width: 1500px;
 
     margin: 0 auto;
     padding: 60px 40px 0;
 
-    @include breakpoint(400) {
+    @include breakpoint(500) {
         padding: 15px;
-        top: 0;
         z-index: 10;
     }
 
