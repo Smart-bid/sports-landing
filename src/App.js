@@ -5,9 +5,7 @@ function App() {
   return (
     <>
       <div className="background">
-
         <div className="container">
-          
           <header className="header">
             <div className="header__logo-wrapper">
               <p className="header__logo">logo</p>
@@ -20,7 +18,7 @@ function App() {
           <div className="main-wrapper">
             <main className="main">
               <p className="text text_29px">limited time offer</p>
-                <p className="text text__extra-bold text_43px wrapper">
+                <p className="text text__extra-bold text_43px text_red wrapper">
                   FIRST DEPOSIT BONUS: 200% <br /> UP TO £50 + 200 BONUS 
                 </p>
               <p className="text text__extra-bold text_29px p_indent"><span className="neon-green">+40 free SPINS</span></p>

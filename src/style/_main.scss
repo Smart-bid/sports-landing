@@ -26,16 +26,6 @@
 
         margin-left: 100px;
 
-        &::after {
-            content: "";
-            position: absolute;
-            width: 80vh;
-            height: 100vh;
-            background-image: url(/static/media/opacity.f49c68da.png);
-            background-repeat: no-repeat;
-            bottom: -75%;
-        }
-
         @include breakpoint(600) {
             margin-left: 40px;
         }
