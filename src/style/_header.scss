@@ -4,6 +4,8 @@
     max-width: 1500px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 10;
 
     position: fixed;
     right: 0;
@@ -11,7 +13,7 @@
     top: 0;
 
     margin: 0 auto;
-    padding: 60px 40px 0;
+    padding: 60px 40px 20px;
 
     @include breakpoint(400) {
         padding: 15px;
@@ -33,5 +35,9 @@
             margin: 0;
             font-size: 12px;
         }
+    }
+
+    &__background {
+        background-color: #330050;
     }
 }
