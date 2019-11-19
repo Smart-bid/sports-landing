@@ -11,6 +11,10 @@
         @include breakpoint (840) {
             overflow-x: scroll;
         }
+
+        @include breakpoint_h(820) {
+            padding: 0 10px 20px;
+        }
     }
 
     &__top {
@@ -42,3 +46,4 @@
         }
     }
 }
+

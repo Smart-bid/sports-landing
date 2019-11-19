@@ -48,6 +48,10 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+
+    @include breakpoint_h(667) {
+        height: 85vh;
+    }
 }
 
 .footer-background {
