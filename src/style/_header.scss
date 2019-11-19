@@ -1,17 +1,23 @@
 @import "./mixins";
 
 .header {
+    max-width: 1500px;
     display: flex;
     justify-content: space-between;
 
     position: fixed;
     right: 0;
     left: 0;
-
-    max-width: 1500px;
+    top: 0;
 
     margin: 0 auto;
     padding: 60px 40px 0;
+
+    @include breakpoint_h(801) {
+        @include breakpoint(720) {
+            padding: 15px;
+        }
+    }
 
     &__logo {       
         margin: 0;

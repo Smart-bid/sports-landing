@@ -14,7 +14,11 @@
         justify-content: center;
 
         padding-bottom: 40px;
-        margin: 40px 15px 0
+        margin: 40px 15px 0;
+
+        @include breakpoint_h(823) {
+            margin: 20px 5px 0;
+        }
     }
 
     &__top {
