@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sports-landing/static/css/main.ee56d7ee.chunk.css",
+    "main.js": "/sports-landing/static/js/main.d9550f02.chunk.js",
+    "main.js.map": "/sports-landing/static/js/main.d9550f02.chunk.js.map",
+    "runtime-main.js": "/sports-landing/static/js/runtime-main.8e0cd547.js",
+    "runtime-main.js.map": "/sports-landing/static/js/runtime-main.8e0cd547.js.map",
+    "static/js/2.f1cbc75e.chunk.js": "/sports-landing/static/js/2.f1cbc75e.chunk.js",
+    "static/js/2.f1cbc75e.chunk.js.map": "/sports-landing/static/js/2.f1cbc75e.chunk.js.map",
+    "index.html": "/sports-landing/index.html",
+    "precache-manifest.b94452829a9e6c8c9d9a013260b6f87a.js": "/sports-landing/precache-manifest.b94452829a9e6c8c9d9a013260b6f87a.js",
+    "service-worker.js": "/sports-landing/service-worker.js",
+    "static/css/main.ee56d7ee.chunk.css.map": "/sports-landing/static/css/main.ee56d7ee.chunk.css.map",
+    "static/media/main.scss": "/sports-landing/static/media/back-main.a7150123.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e0cd547.js",
+    "static/js/2.f1cbc75e.chunk.js",
+    "static/css/main.ee56d7ee.chunk.css",
+    "static/js/main.d9550f02.chunk.js"
+  ]
+}
